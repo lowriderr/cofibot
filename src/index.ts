@@ -29,3 +29,4 @@ client.on("messageCreate", (msg) => {
 });
 
 client.login(process.env.BOT_TOKEN);
+console.log("Cofison bot is now online");
