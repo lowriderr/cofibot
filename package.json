@@ -1,0 +1,28 @@
+{
+  "name": "cofison-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.8",
+    "axios": "^1.6.8",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "moment": "^2.30.1",
+    "nodemon": "^3.1.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.8.2"
+  }
+}
