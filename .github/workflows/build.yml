@@ -37,3 +37,5 @@ jobs:
 
       - name: start project
         run: npm start
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }} 
